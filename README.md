@@ -1,2 +1,2 @@
 # portfolio
-A portfolio demo of some my projects and skills
+A portfolio demo of some my projects and skills.
