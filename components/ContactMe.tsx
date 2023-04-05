@@ -23,18 +23,18 @@ const ContactMe = (props: Props) => {
 };
   return (
 
-    <div className='h-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
+    <div className='h-screen w-screen flex relative flex-col text-center md:text-left md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3 className='absolute top-20 uppercase tracking-[10px] text-gray-500 text-2xl'>
         Contact
         </h3>
 
-        <div className='py-12 flex flex-col space-y-10'>
-            <h4 className='text-lg text-center'>
-                Do you have a project in mind ? Want to hire me ? or simply wanna chat ? feel free to schedule a meeting
+        <div className='flex flex-col space-y-10  justify-center items-center'>
+            <p className='text-lg text-center sm:text-left '>
+                Do you have a project in mind ? Want to hire me ? or simply wanna chat ?
           
                 
 
-            </h4>
+            </p>
 
             <div className='space-y-10'>
                 <div className='flex items-center space-x-5 justify-center'>
@@ -61,7 +61,10 @@ const ContactMe = (props: Props) => {
 
             </div>
 
-            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col space-y-2 w-fit mx-auto'>
+            <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col w-fit'>
+              <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
+
+             
 
                 <div className='flex space-x-2'>
                     <input {...register('name')} placeholder='Name' className='contactInput' type='text'/>
@@ -75,6 +78,7 @@ const ContactMe = (props: Props) => {
                 <button  type='submit' className='bg-slate-500 py-5 rounded-md text-black/50 font-bold text-lg'>
                     Submit
                 </button>
+                </div>
 
             </form>
            

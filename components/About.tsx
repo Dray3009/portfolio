@@ -39,7 +39,7 @@ const About = (props: Props) => {
         <div className='ml-5'>
 
             <p>
-                Hi, I am Andre a software Engineer who values learning and growning with people, team and technologies.
+                Hi, I am Andre a software Engineer who values learning and growing with people, teams and technologies.
             </p>
 
             <p>
