@@ -1,6 +1,7 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 import {SiGmail} from 'react-icons/si'
+import {FaGithub, FaLinkedinIn} from 'react-icons/fa'
 import {DocumentTextIcon} from '@heroicons/react/24/outline'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
@@ -29,15 +30,21 @@ const Header = (props: Props) => {
         }}
         className='flex flex-row items-center space-x-6 cursor-pointer'>
               {/* icon */}
-              <SocialIcon url='https://www.linkedin.com/in/andre-vassell-a5697421a/'
-              fgColor='#1b1b1b' bgColor='transparent'/>
 
-              <SocialIcon url='https://github.com/Dray3009'
-              fgColor='#1b1b1b' bgColor='transparent'/>
+              <Link href='https://www.linkedin.com/in/andre-vassell-a5697421a/'
+                target="blank">
+              <FaLinkedinIn color='#0072b1' className='w-7 h-7'/>
+            
+              </Link>
+
+              <Link href="https://github.com/Dray3009"
+              target='blank'>
+                <FaGithub className='w-7 h-7'/>
+              </Link>
 
               <Link href="./Andre_Vassell_Resume.pdf" 
                 target="blank">
-              <DocumentTextIcon className=' w-6 h-6 animate-bounce'/>
+              <DocumentTextIcon className=' w-7 h-7 animate-bounce'/>
             
               </Link>
 

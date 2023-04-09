@@ -40,9 +40,9 @@ const HireMeCard2 = (props: Props) => {
             </h4>
 
             <ul className='list-disc space-y-4 ml-5 text-lg mt-2'>
-                <li>Personal Development</li>
-                <li> Outline Objectives</li>
-                <li> Delivering on time</li>
+                <li></li>
+                <li></li>
+                <li></li>
                 <li></li>
             </ul>
 

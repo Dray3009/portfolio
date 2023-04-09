@@ -39,7 +39,7 @@ const HireMeCard = (props: Props) => {
             </h4>
 
             <ul className='list-disc space-y-4 ml-5 text-lg mt-2'>
-                <li> Communication</li>
+                <li>Good Communication</li>
                 <li> Problem Solving</li>
                 <li>Productivity</li>
                 <li> Imaginative</li>

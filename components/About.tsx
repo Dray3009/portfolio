@@ -43,7 +43,7 @@ const About = (props: Props) => {
             </p>
 
             <p>
-                In the  last 5 years i have worked as a firefighter, in those years i have learned how to work calmly under extreme pressure and work well as a part of a team.
+                In the  last 5 years i have worked as a firefighter, in those years i have learnt how to work calmly under extreme pressure and work well as a part of a team.
             </p>
         </div>
     
